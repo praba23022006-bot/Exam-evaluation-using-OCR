@@ -1,0 +1,10 @@
+flask
+flask-cors
+easyocr==1.6.2
+pillow==9.5.0
+numpy==1.26.4
+rapidfuzz
+torch==1.13.1
+torchvision==0.14.1
+opencv-python-headless==4.5.4.60
+pymupdf==1.22.3

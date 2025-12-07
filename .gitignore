@@ -1,0 +1,58 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Virtualenv
+pip-wheel-metadata/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Logs
+logs/
+*.log
+
+# Test
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.swp
+*~

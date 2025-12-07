@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body, html, #root { height: 100%; margin: 0; font-family: Arial, Helvetica, sans-serif; }
+.home-wrap { height: 100vh; display:flex; align-items:center; justify-content:center; background: linear-gradient(90deg,#6d4bd6,#a153b7); }
+.home-inner { background: white; padding: 40px; border-radius: 12px; text-align:center; width:600px; }
+.home-btn { padding: 12px 20px; margin: 10px; font-size:16px; border-radius:8px; cursor:pointer; }
+.home-btn.tamil { background: #6d4bd6; color: white; border: none; }
+.home-btn:not(.tamil) { background: #eee; border: none; }
+
+.page-container { padding: 24px; max-width:1100px; margin: 24px auto; background: white; border-radius: 8px; }
+.header h1 { text-align:center; margin: 10px 0 20px; font-size:28px; }
+.upload-box { padding: 16px; border-radius:8px; margin-bottom: 16px; }
+.upload-box.dashed { border: 2px dashed #5263c8; background: #fbfbfd; }
+.two-col { display:flex; gap: 20px; }
+.left-card { flex: 1; background:#fafafa; padding:16px; border-radius:8px; min-height:380px; }
+.right-card { flex: 2; background:#fafafa; padding:16px; border-radius:8px; min-height:380px; }
+.left-card h3, .right-card h3 { border-bottom: 2px solid #6f7bd6; padding-bottom:8px; }
+textarea { width:100%; min-height:120px; border-radius:6px; padding:8px; font-size:14px; }
+.preview-area { height:90px; border-radius:6px; background:#fff; border:1px solid #eee; padding:8px; color:#999; display:flex; align-items:center; justify-content:center; }
+.run-btn { background: #8b7bd8; color: white; border: none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.status-row { display:flex; align-items:center; gap:12px; margin-top:12px; }
+@media (max-width:900px) { .two-col { flex-direction:column; } }

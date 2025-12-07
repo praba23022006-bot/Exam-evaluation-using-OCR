@@ -1,0 +1,1 @@
+Backend runs on port 5000. Frontend runs on 3000. See README for setup.
